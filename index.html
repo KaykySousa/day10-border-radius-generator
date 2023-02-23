@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Day 10 - Border Radius Generator</title>
+		<link rel="stylesheet" href="./style/reset.css" />
+		<link rel="stylesheet" href="./style/index.css" />
+		<script src="./script.js" defer></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="generator">
+				<div class="generator__shape" id="shape"></div>
+				<div class="generator__sliders">
+					<div class="sliders__slider-container">
+						<input
+							type="range"
+							min="0"
+							max="100"
+							step="1"
+							name="TopLeft"
+							class="slider"
+						/>
+						<label class="label">0</label>
+					</div>
+
+					<div class="sliders__slider-container">
+						<input
+							type="range"
+							min="0"
+							max="100"
+							step="1"
+							name="TopRight"
+							class="slider"
+						/>
+						<label class="label">0</label>
+					</div>
+
+					<div class="sliders__slider-container">
+						<input
+							type="range"
+							min="0"
+							max="100"
+							step="1"
+							name="BottomRight"
+							class="slider"
+						/>
+						<label class="label">0</label>
+					</div>
+
+					<div class="sliders__slider-container">
+						<input
+							type="range"
+							min="0"
+							max="100"
+							step="1"
+							name="BottomLeft"
+							class="slider"
+						/>
+						<label class="label">0</label>
+					</div>
+				</div>
+			</div>
+
+			<div class="contacts">
+				<p class="contacts__name">Desenvolvido por: Kayky de Sousa</p>
+				<p class="contacts__social">
+					<a
+						href="https://www.linkedin.com/in/kayky-de-sousa/"
+						className="hover:underline"
+					>
+						Linkedin
+					</a>
+					|
+					<a
+						href="https://github.com/KaykySousa"
+						className="hover:underline"
+					>
+						Github
+					</a>
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
